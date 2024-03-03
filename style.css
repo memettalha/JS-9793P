@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-image: url("images/3.png");
+    background-repeat: no-repeat;
+    background-size:100vw 100vh;
+}
+
+.all{
+    background-color:transparent;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+    box-shadow: 1px 1px 2px 2px #fff;
+    filter: blur();
+
+}
+h1, p, button, audio{
+    margin-top:15px;
+}
+#number{
+    color:#fff;
+    font-weight: bold;
+}
+button{
+    background-color: blueviolet;
+    box-shadow: 2px 2px 2px solid rgb(109, 76, 141);
+    padding:12px 15px;
+    border-radius:5px;
+    color:#3a2525;
+    border:none;
+}
+button:hover{
+    background-color:rgb(114, 67, 158);
+    cursor: pointer;
+}
+#music{
+    display: none;
+}
+
+.dropdown{
+    position: absolute;
+    top:30px;
+    right:50px;
+}
+
+#section{
+    position:absolute;
+    top:50px;
+    left:50px;
+    font-size: 20px;
+}
+#section a{
+    text-decoration: none;
+    color:#fff;
+}
+#section i{
+    padding-right: 10px;
+}
+
+.accordion{
+    position: absolute;
+    left:50px;
+    top:150px;
+
+}
+
